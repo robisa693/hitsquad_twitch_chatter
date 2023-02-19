@@ -23,13 +23,14 @@ button1 = tk.Button(root, text="!battleroyale", command=lambda: click_and_type("
 button2 = tk.Button(root, text="!gauntlet", command=lambda: click_and_type("!gauntlet"))
 button3 = tk.Button(root, text="!hitsquad", command=lambda: click_and_type("!hitsquad"))
 button4 = tk.Button(root, text="!wizard", command=lambda: click_and_type("!wizard"))
-button5 = tk.Button(root, text="!attack 1", command=lambda: click_and_type("!attack 1"))
-button6 = tk.Button(root, text="!attack 2", command=lambda: click_and_type("!attack 2"))
-button7 = tk.Button(root, text="!attack 3", command=lambda: click_and_type("!attack 3"))
-button8 = tk.Button(root, text="!attack 4", command=lambda: click_and_type("!attack 4"))
-button9 = tk.Button(root, text="!attack 5", command=lambda: click_and_type("!attack 5"))
+button5 = tk.Button(root, text="!attack 1", command=lambda: click_and_type("!attack1"))
+button6 = tk.Button(root, text="!attack 2", command=lambda: click_and_type("!attack2"))
+button7 = tk.Button(root, text="!attack 3", command=lambda: click_and_type("!attack3"))
+button8 = tk.Button(root, text="!attack 4", command=lambda: click_and_type("!attack4"))
+button9 = tk.Button(root, text="!attack 5", command=lambda: click_and_type("!attack5"))
 button10 = tk.Button(root, text="!flames", command=lambda: click_and_type("!flames"))
 button11 = tk.Button(root, text="!moan", command=lambda: click_and_type("!moan"))
+button12 = tk.Button(root, text="!shield", command=lambda: click_and_type("!shield"))
 
 # Add the buttons to the GUI
 button1.pack(fill=tk.BOTH, expand=True)
@@ -43,6 +44,7 @@ button8.pack(fill=tk.BOTH, expand=True)
 button9.pack(fill=tk.BOTH, expand=True)
 button10.pack(fill=tk.BOTH, expand=True)
 button11.pack(fill=tk.BOTH, expand=True)
+button12.pack(fill=tk.BOTH, expand=True)
 
 
 
